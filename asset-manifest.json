@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/WeAllSoDone/static/css/main.7e201c66.chunk.css",
+    "main.js": "/WeAllSoDone/static/js/main.0d9a78b4.chunk.js",
+    "main.js.map": "/WeAllSoDone/static/js/main.0d9a78b4.chunk.js.map",
+    "runtime-main.js": "/WeAllSoDone/static/js/runtime-main.2ea82938.js",
+    "runtime-main.js.map": "/WeAllSoDone/static/js/runtime-main.2ea82938.js.map",
+    "static/js/2.76926bd4.chunk.js": "/WeAllSoDone/static/js/2.76926bd4.chunk.js",
+    "static/js/2.76926bd4.chunk.js.map": "/WeAllSoDone/static/js/2.76926bd4.chunk.js.map",
+    "index.html": "/WeAllSoDone/index.html",
+    "precache-manifest.0fbfe7da07014df79464b7358a4c9aa0.js": "/WeAllSoDone/precache-manifest.0fbfe7da07014df79464b7358a4c9aa0.js",
+    "service-worker.js": "/WeAllSoDone/service-worker.js",
+    "static/css/main.7e201c66.chunk.css.map": "/WeAllSoDone/static/css/main.7e201c66.chunk.css.map",
+    "static/js/2.76926bd4.chunk.js.LICENSE.txt": "/WeAllSoDone/static/js/2.76926bd4.chunk.js.LICENSE.txt",
+    "static/media/Igor.png": "/WeAllSoDone/static/media/Igor.f0a31261.png",
+    "static/media/Ournasha.png": "/WeAllSoDone/static/media/Ournasha.46eda699.png",
+    "static/media/Vicpic.png": "/WeAllSoDone/static/media/Vicpic.e65f26ca.png",
+    "static/media/bigOfferBg.webp": "/WeAllSoDone/static/media/bigOfferBg.6a278030.webp",
+    "static/media/forBoys.png": "/WeAllSoDone/static/media/forBoys.11b83d06.png",
+    "static/media/forGirl.png": "/WeAllSoDone/static/media/forGirl.5eb7b398.png",
+    "static/media/galleryFive.png": "/WeAllSoDone/static/media/galleryFive.688011ae.png",
+    "static/media/galleryFour.png": "/WeAllSoDone/static/media/galleryFour.02db575c.png",
+    "static/media/galleryOne.png": "/WeAllSoDone/static/media/galleryOne.d5e95a06.png",
+    "static/media/gallerySix.png": "/WeAllSoDone/static/media/gallerySix.b7e94401.png",
+    "static/media/galleryThree.png": "/WeAllSoDone/static/media/galleryThree.85a0e7d5.png",
+    "static/media/galleryTwo.png": "/WeAllSoDone/static/media/galleryTwo.c561e581.png",
+    "static/media/iconFour.svg": "/WeAllSoDone/static/media/iconFour.2faf23c4.svg",
+    "static/media/iconOne.svg": "/WeAllSoDone/static/media/iconOne.dc44fa1c.svg",
+    "static/media/iconThree.svg": "/WeAllSoDone/static/media/iconThree.965ff7c6.svg",
+    "static/media/iconTwo.svg": "/WeAllSoDone/static/media/iconTwo.e10a822b.svg",
+    "static/media/mainBgOne.png": "/WeAllSoDone/static/media/mainBgOne.3bc73fe7.png",
+    "static/media/offerBg.png": "/WeAllSoDone/static/media/offerBg.fc08665f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ea82938.js",
+    "static/js/2.76926bd4.chunk.js",
+    "static/css/main.7e201c66.chunk.css",
+    "static/js/main.0d9a78b4.chunk.js"
+  ]
+}
