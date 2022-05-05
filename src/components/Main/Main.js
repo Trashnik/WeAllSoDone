@@ -28,11 +28,7 @@ const styles = css`
     z-index: 2;
     color: #fff;
   }
-  @media (max-width: 965px){
-    .container{
-      max-width: 90%;
-    }
-  }
+  
 `;
 
 export default Main;

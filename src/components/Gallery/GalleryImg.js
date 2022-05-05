@@ -1,10 +1,10 @@
 /** @jsx jsx */
 import { jsx, css } from "@emotion/core";
-import Overlay from "../GlobalComponents/Overlay";
+
 
 const GalleryImg = ({ galleryBg }) => (
   <div css={styles} className="galleryImg">
-    <Overlay />
+    
     <img src={galleryBg} alt="trainer" />
   </div>
 );

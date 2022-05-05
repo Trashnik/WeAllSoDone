@@ -5,34 +5,30 @@ import Button from "../GlobalComponents/Button";
 const FooterCardContainer = () => (
   <div className="wrap" css={styles}>
     <div className="footerCard">
-      <h2>Gym</h2>
-      <p>5th flora, 700/D kings road, green lane New York-1782</p>
-      <a href="#/">+10 367 826 2567</a>
-      <a href="#/">contact@carpenter.com</a>
+      <h2>B.O.G</h2>
+      <p>Cloackroom #2</p>
+      <a href="#/">8 800 555 35 35</a>
+      <a href="#/">Dungeonmaster@mail.ru</a>
       <div className="footerSocials">
         <i className="fab fa-facebook-f"></i>
         <i className="fab fa-twitter"></i>
         <i className="fab fa-instagram"></i>
-        <i className="fab fa-pinterest"></i>
         <i className="fab fa-youtube"></i>
       </div>
     </div>
     <div className="footerCard">
-      <h2>Useful Links</h2>
+      <h2>Information</h2>
       <a href="#/">Pricing</a>
       <a href="#/">About</a>
       <a href="#/">Gallery</a>
       <a href="#/">Contact</a>
     </div>
     <div className="footerCard">
-      <h2>Subscribe</h2>
+      <h2>Subscribtion</h2>
       <div className="inputWrap">
         <input type="email" placeholder="Enter your mail" />
         <Button text="Subscribe" />
       </div>
-      <p>
-        Esteem spirit temper too say adieus who direct esteem esteems luckily.
-      </p>
     </div>
   </div>
 );
@@ -77,9 +73,7 @@ const styles = css`
       color: #aab1b7;
       margin-bottom: 8px;
       transition: color 600ms ease-in-out;
-      &:hover {
-        color: #ff1414;
-      }
+      
     }
     .footerSocials {
       width: 100%;
@@ -90,9 +84,7 @@ const styles = css`
         margin-right: 30px;
         cursor: pointer;
         transition: color 600ms ease-in-out;
-        &:hover {
-          color: #ff1414;
-        }
+        
       }
     }
     .inputWrap {
@@ -118,44 +110,7 @@ const styles = css`
       }
     }
   }
-  @media (max-width: 640px) {
-    flex-direction: column;
-    .footerCard {
-      max-width: 450px;
-      margin-bottom: 40px;
-      &:nth-child(2),
-      &:nth-child(3) {
-        max-width: 450px;
-      }
-    }
-  }
-  @media (min-width: 641px) and (max-width: 915px) {
-    flex-wrap: wrap;
-    .footerCard {
-      max-width: 45%;
-      &:first-of-type {
-        margin-bottom: 40px;
-      }
-      &:nth-child(2),
-      &:nth-child(3) {
-        max-width: 45%;
-      }
-    }
-  }
-  @media (max-width: 916px) {
-    .footerCard {
-      p {
-        font-size: 14px;
-      }
-      &:first-of-type {
-        display: flex;
-        flex-direction: column;
-      }
-    }
-  }
-  @media (max-width: 1200px) {
-    max-width: 90%;
-  }
+ 
 `;
 
 export default FooterCardContainer;

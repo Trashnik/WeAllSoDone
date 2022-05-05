@@ -17,7 +17,7 @@ const Nav = () => {
         <Button text="join us" />
         <i
           onClick={() => setOpenMenu(!openMenu)}
-          id="burgerMenu"
+          id="gymMenu"
           className={
             openMenu ? "fas fa-times fa-lg" : "fas fa-align-right fa-lg"
           }
@@ -40,18 +40,13 @@ const styles = css`
     .logo {
       cursor: pointer;
     }
-    #burgerMenu {
+    #gymMenu {
       cursor: pointer;
       display: none;
     }
   }
-  @media (max-width: 1225px) {
-    .container {
-      max-width: 90%;
-      .btn {
-        display: none;
-      }
-      #burgerMenu {
+  
+      #gymMenu {
         display: block;
       }
     }
@@ -59,3 +54,4 @@ const styles = css`
 `;
 
 export default Nav;
+

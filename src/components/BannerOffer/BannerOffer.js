@@ -17,18 +17,14 @@ const styles = css`
   padding: 240px 0;
   text-align: center;
   background: url('${BigOfferBg}') no-repeat center/cover;
-  color: #fff;
+  color: #010b8b;
   h2{
     font-size: 50px;
     font-weight: 900;
   }
   .btn{
     margin: 30px 0 0 0;
-    &:hover {
-      background: transparent;
-      color: #ff1414;
-      border: 1px solid #ff1414;
-    }
+    
   }
 `;
 

@@ -37,20 +37,9 @@ const styles = css`
   }
   .btn {
     margin: 40px 0 0 0;
-    &:hover {
-      background: transparent;
-      color: #ff1414;
-      border: 1px solid #ff1414;
-    }
+  
   }
-  @media (max-width: 800px) {
-    p {
-      font-size: 16px;
-      br {
-        display: none;
-      }
-    }
-  }
+  
 `;
 
 export default BigOfferInfo;

@@ -16,12 +16,7 @@ const styles = css`
   padding: 200px 0;
   position: relative;
   background-size: 100% 100%;
-  &:hover {
-    background-size: 105% 105%;
-  }
-  @media(max-width: 1000px) {
-    max-width: 100%;
-  }
+ 
 `;
 
 export default JoinUsCard;

@@ -23,15 +23,11 @@ const styles = css`
       background: url('${ForGirlBg}') no-repeat center/cover;
       background-size: 100% 100%;
       transition: all 300ms ease-in-out;
-      &:hover {
-        background-size: 105% 105%;
-      }
+     
       &:last-of-type {
         background: url('${ForBoysBg}') no-repeat center/cover;
         background-size: 100% 100%;
-        &:hover{
-            background-size: 105% 105%;
-        }
+       
       }
     }
   }

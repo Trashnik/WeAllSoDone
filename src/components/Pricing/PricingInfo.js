@@ -25,11 +25,7 @@ const styles = css`
   }
   .btn {
     margin: 20px 0 0 0;
-    &:hover {
-      background: transparent;
-      color: #ff1414;
-      border: 1px solid #ff1414;
-    }
+   
   }
 `;
 

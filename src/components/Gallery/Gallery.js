@@ -35,28 +35,7 @@ const styles = css`
       }
     }
   }
-  @media (max-width: 769px) {
-    .container {
-      .galleryImg {
-        max-width: 100%;
-        &:nth-child(3),
-        &:nth-child(4) {
-          max-width: 100%;
-        }
-      }
-    }
-  }
-  @media (min-width: 770px) and (max-width: 1000px) {
-    .container {
-      .galleryImg {
-        max-width: 50%;
-        &:nth-child(3),
-        &:nth-child(4) {
-          max-width: 50%;
-        }
-      }
-    }
-  }
+ 
 `;
 
 export default Gallery;

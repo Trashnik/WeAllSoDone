@@ -19,17 +19,7 @@ const styles = css`
   text-align: center;
   cursor: pointer;
   transition: border 600ms ease-in-out;
-  &:hover {
-    border: 1px solid #ff1414;
-  }
-  @media (max-width: 799px) {
-    max-width: 520px;
-    margin-bottom: 26px;
-  }
-  @media(min-width: 800px) and (max-width: 1189px) {
-    max-width: 48%;
-    margin-bottom: 26px;
-  }
+ 
 `;
 
 export default PricingCard;

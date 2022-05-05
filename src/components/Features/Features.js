@@ -12,7 +12,7 @@ const Features = () => (
   <section css={styles} className="features" id="about">
     <Title
       title="OUR FEATURES"
-      desc="There are many variations of passages of lorem Ipsum available, but the majority
+      desc="There are many variations of passages of trains, but the majority
         have suffered alteration."
     />
     <Container>
@@ -32,25 +32,7 @@ const styles = css`
     display: flex;
     padding: 80px 0 0 0;
   }
-  @media (max-width: 579px) {
-    .title {
-      padding: 0 40px;
-    }
-    .container {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  @media (min-width: 580px) and (max-width: 1000px) {
-    .title {
-      padding: 0 40px;
-    }
-    .container {
-      flex-wrap: wrap;
-      justify-content: space-between;
-      max-width: 640px;
-    }
-  }
+
 `;
 
 export default Features;

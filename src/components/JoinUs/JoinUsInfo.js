@@ -6,7 +6,7 @@ const JoinUsInfo = ({ title }) => (
   <div css={styles} className="cardInfo">
     <h2>{title}</h2>
     <p>
-      There are many variations of passages of lorem Ipsum available, but the
+      There are many variations of passages of trains available, but the
       majority have suffered alteration.
     </p>
     <Button text="JOIN NOW" />
@@ -32,13 +32,7 @@ const styles = css`
     line-height: 1.6;
     margin: 18px 0 26px 0;
   }
-  .btn {
-    &:hover {
-      background: transparent;
-      color: #ff1414;
-      border: 1px solid #ff1414;
-    }
-  }
+  
 `;
 
 export default JoinUsInfo;

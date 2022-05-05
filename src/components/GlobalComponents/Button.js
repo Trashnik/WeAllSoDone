@@ -12,7 +12,7 @@ const styles = css`
   display: inline-block;
   text-transform: uppercase;
   padding: 15px 44px;
-  background: #ff1414;
+  background: #010b8b;
   color: #fff;
   font-size: 14px;
   font-weight: 600;

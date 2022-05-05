@@ -7,7 +7,7 @@ const MainInfo = () => (
     <h3>Build Up Your</h3>
     <h1>Body Shape</h1>
     <p>Build Your Body and Fitness with Professional Touch</p>
-    <Button text="JOIN US" />
+    <Button  text="JOIN US" />
   </div>
 );
 
@@ -33,8 +33,8 @@ const styles = css`
     padding: 15px 50px;
     &:hover {
       background: transparent;
-      color: #ff1414;
-      border: 1px solid #ff1414;
+      color: #010b8b;
+      border: 1px solid #010b8b;
     }
   }
   @media (max-width: 640px) {
