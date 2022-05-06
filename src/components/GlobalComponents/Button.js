@@ -2,7 +2,7 @@
 import { jsx, css } from "@emotion/core";
 
 const Button = ({ text }) => (
-  <a href="#/" css={styles} className="btn">
+  <a href="https://www.youtube.com/watch?v=aiGVZTYfH9M" css={styles} className="btn">
     {text}
   </a>
 );
